@@ -67,15 +67,18 @@ body {
 
 .centered-img-text {
     color: rgb(223, 43, 148);
-    font-size: 30px;
+    font-size: 20px;
+    text-align: left;
     font-family: RubikDirt-Regular;
+    padding: 5px 25px 0px 5px;
 }
 
 .centered2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 5px;
+    /* left: px; */
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
 }
 
 .bottom-left {
@@ -121,5 +124,3 @@ img.centerlogo {
     }
 
 }
-
-
