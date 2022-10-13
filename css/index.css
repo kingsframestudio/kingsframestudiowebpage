@@ -102,10 +102,18 @@ img.centerlogo {
 
     .centered {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    .centered-text {
+        margin-top: 100px;
+        color: white;
+        font-size: 45px;
+        font-family: RubikDirt-Regular;
+    }
+
 
     .overview {
         height: 50vh;
@@ -123,4 +131,7 @@ img.centerlogo {
         width: 250px;
     }
 
+    a.nav-link.active {
+        text-align: left;
+    }
 }
