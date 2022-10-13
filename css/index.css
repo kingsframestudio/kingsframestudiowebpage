@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Lobster-Regular;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: RubikDirt-Regular;
+    src: url(../fonts/RubikDirt-Regular.ttf);
+}
+
+@font-face {
+    font-family: Teko-Regular;
+    src: url(../fonts/Teko-Regular.ttf);
+}
+
+@font-face {
+    font-family: Play-Regular;
+    src: url(../fonts/Play-Regular.ttf);
+}
+
+@font-face {
+    font-family: LondrinaOutline-Regular;
+    src: url(../fonts/LondrinaOutline-Regular.ttf);
+}
+
+@font-face {
+    font-family: Parisienne-Regular;
+    src: url(../fonts/Parisienne-Regular.ttf);
+}
+
+body {
+    background-color: #ffffff;
+    /* background-image: linear-gradient(to right, #ffffff , #292828); */
+}
+
+.studioname {
+    color: brown;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.hero {
+    background-image: url(../images/hero1.jpg);
+    height: 925px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-text {
+    color: white;
+    font-size: 45px;
+    font-family: RubikDirt-Regular;
+}
+
+.centered-img-text {
+    color: rgb(223, 43, 148);
+    font-size: 30px;
+    font-family: RubikDirt-Regular;
+}
+
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 25px;
+    left: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.overview {
+    height: 37vh;
+    background-color: #303030;
+    border-radius: 10px;
+}
+
+img.centerlogo {
+    width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .overview {
+        height: 50vh;
+        background-color: #303030;
+        border-radius: 10px;
+    }
+
+    .centered-img-text {
+        color: rgb(223, 43, 148);
+        font-size: 38px;
+        font-family: RubikDirt-Regular;
+    }
+
+    img.centerlogo {
+        width: 250px;
+    }
+
+}
+
+
